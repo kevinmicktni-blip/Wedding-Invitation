@@ -997,6 +997,171 @@
   }
 
 }
+    /* =========================================================
+   FINAL MOBILE RESPONSIVE FIX
+   ========================================================= */
+
+@media (max-width: 600px) {
+
+  html,
+  body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden !important;
+  }
+
+  * {
+    max-width: 100%;
+  }
+
+  .page-content,
+  .container,
+  section {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .container {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  /* HERO */
+  .hero-scene {
+    min-height: 100svh;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  /* HEADINGS */
+  .sec-heading {
+    font-size: clamp(1.6rem, 8vw, 2.4rem) !important;
+    line-height: 1.15;
+    word-break: normal;
+  }
+
+  /* ARABIC */
+  .arabic-text {
+    max-width: 100%;
+    overflow-wrap: normal;
+    word-break: normal;
+  }
+
+  .arabic-bismillah {
+    font-size: clamp(1.7rem, 8vw, 2.7rem) !important;
+    line-height: 1.8;
+  }
+
+  .quran-arabic {
+    font-size: clamp(1.5rem, 7vw, 2.3rem) !important;
+    line-height: 2;
+  }
+
+  /* CARDS */
+  .royal-card,
+  .event-card {
+    width: 100%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .royal-card {
+    padding: 30px 18px !important;
+  }
+
+  /* COUPLE IMAGE */
+  .couple-portrait {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    overflow: hidden;
+  }
+
+  .couple-portrait img {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    object-fit: contain !important;
+  }
+
+  /* GALLERY */
+  .gallery-showcase {
+    width: 100%;
+    max-width: 100%;
+    grid-template-columns: 1fr !important;
+  }
+
+  .gallery-box {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    overflow: hidden;
+  }
+
+  .gallery-box img {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    object-fit: contain !important;
+  }
+
+  /* EVENTS */
+  .events-grid {
+    width: 100%;
+    max-width: 100%;
+    grid-template-columns: 1fr !important;
+  }
+
+  /* COUNTDOWN */
+  .countdown,
+  .countdown-grid {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .time-unit {
+    min-width: 0 !important;
+    width: 100%;
+    padding: 14px 6px !important;
+  }
+
+  .time-digits {
+    font-size: clamp(1.6rem, 8vw, 2.2rem) !important;
+  }
+
+  /* OPEN BUTTON */
+  .door-center-cta {
+    width: calc(100% - 30px);
+    max-width: 100%;
+  }
+
+  .btn-open {
+    max-width: 100%;
+    width: auto;
+    padding: 16px 22px !important;
+    font-size: 0.72rem !important;
+    letter-spacing: 2px !important;
+    white-space: normal;
+  }
+
+  /* MUSIC BUTTON */
+  .audio-control-pill {
+    max-width: calc(100vw - 32px);
+    right: 16px !important;
+    bottom: 16px !important;
+  }
+
+  /* LONG TEXT */
+  p,
+  h1,
+  h2,
+  h3,
+  span,
+  div {
+    overflow-wrap: break-word;
+  }
+}
   </style>
 </head>
 <body class="doors-locked">
